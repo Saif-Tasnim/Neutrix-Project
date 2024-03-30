@@ -6,13 +6,25 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        "2xl": "4.5rem",
+      },
+      screens: {
+        xl: "1280px",
+        "2xl": "1536px",
       },
     },
+    screens: {
+      xs: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
   },
-  plugins: [],
+  plugins: [require('autoprefixer')],
 };
