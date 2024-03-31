@@ -11,12 +11,12 @@ export const NAV_DATA = [
   },
   {
     id: 3,
-    href: "/",
+    href: "/contact",
     title: "Contact",
   },
   {
     id: 4,
-    href: "/",
+    href: "/policy",
     title: "Policyholder Portal",
   },
 ];
