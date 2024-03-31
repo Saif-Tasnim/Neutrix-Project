@@ -4,7 +4,7 @@ import Paragraph from "./Paragraph";
 const TheFooter = () => {
   return (
     <div>
-      <div className="bg-gray-800 text-gray-100 grid grid-cols-3 gap-14 px-10 py-10">
+      <div className="bg-gray-800 text-gray-100 grid grid-cols-3 gap-14 px-10 py-10 mt-16">
         <div>
           <h3 className="font-semibold text-xl mb-3">USA Underwriter</h3>
           <Paragraph >NAIC #: 30457</Paragraph>

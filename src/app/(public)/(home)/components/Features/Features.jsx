@@ -6,7 +6,7 @@ const Features = () => {
       <div>
         <p className="text-gray-700 font-medium">Our Features</p>
         <h1 className="text-3xl font-semibold mt-1 mb-6">MCCA REFUND INFORMATION</h1>
-        <button className="px-5 py-2 bg-red-600 text-gray-100 rounded-full font-medium">
+        <button className="px-5 py-2 bg-red-600 text-gray-100 rounded-full font-medium hover:bg-red-700">
           MCCA Refund FAQ
         </button>
       </div>

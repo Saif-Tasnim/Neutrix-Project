@@ -4,7 +4,7 @@ import img from "@/assets/frame.png";
 const SingleCard = ({ heading, para }) => {
   return (
     <div className="border border-gray-200 rounded-xl p-11 flex flex-col gap-6">
-      <div className="w-16 h-16 rounded-full bg-gray-300 p-4 hover:bg-red-700">
+      <div className="w-16 h-16 rounded-full bg-gray-100 p-4 hover:bg-red-700">
         <Image
           src={img}
           alt="frame"

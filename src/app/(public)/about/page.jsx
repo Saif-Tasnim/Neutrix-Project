@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
+import { About, BannerText, History, Mission } from "./components";
+import { FeatureCards } from "../(home)/components";
 
 const AboutPage = () => {
-    return (
-        <div>
-            <h1>This is about pages</h1>
-        </div>
-    );
+  return (
+    <div>
+      <About />
+      <History />
+      <BannerText />
+      <Mission />
+      <FeatureCards />
+    </div>
+  );
 };
 
 export default AboutPage;
