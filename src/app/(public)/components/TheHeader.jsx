@@ -23,7 +23,7 @@ const TheHeader = () => {
           </Link>
         ))}
 
-        <button className="px-5 py-2 bg-red-600 text-white rounded-full">Report a Claim</button>
+        <button className="px-5 py-2 bg-red-600 text-gray-100 rounded-full font-medium">Report a Claim</button>
       </div>
     </div>
   );
