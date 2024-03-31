@@ -1,10 +1,12 @@
 import React from "react";
-import { HeroSection } from "./components/HeroSection";
+import {Features, HeroSection } from "./components";
+
 
 const HomePage = () => {
   return (
     <div>
       <HeroSection />
+      <Features />
     </div>
   );
 };
