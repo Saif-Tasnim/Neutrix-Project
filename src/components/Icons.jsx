@@ -1,5 +1,6 @@
-import { MoveRight } from 'lucide-react';
+import { MoveRight, ChevronRight } from "lucide-react";
 
 export const Icons = {
-    MoveRight
-}
+  MoveRight,
+  ChevronRight,
+};
