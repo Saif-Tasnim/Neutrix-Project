@@ -1,10 +1,13 @@
 import React from "react";
-import { HeroSection } from "./components/HeroSection";
+import { Banner, FeatureCards, Features, HeroSection } from "./components";
 
 const HomePage = () => {
   return (
     <div>
       <HeroSection />
+      <Features />
+      <FeatureCards />
+      <Banner />
     </div>
   );
 };
