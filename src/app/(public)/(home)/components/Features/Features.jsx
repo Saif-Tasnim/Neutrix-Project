@@ -12,7 +12,7 @@ const Features = () => {
       </div>
 
       <div>
-        <p className="font-medium w-[650px]">The Michigan Catastrophic Claims Association approved refunds for certain Michigan  Policyholders due a surplus of funds being held by the MCCA. The approved refund  will be $400 per eligible vehicle insured with USA Underwriters on October 31st, 2021 at 11:59 PM, or $80 if the vehicle is an insured historical vehicle.</p>
+        <p className="font-medium w-[660px]">The Michigan Catastrophic Claims Association approved refunds for certain Michigan  Policyholders due a surplus of funds being held by the MCCA. The approved refund  will be $400 per eligible vehicle insured with USA Underwriters on October 31st, 2021 at 11:59 PM, or $80 if the vehicle is an insured historical vehicle.</p>
       </div>
     </div>
   );
