@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="mt-28 flex justify-between">
+    <div className="mt-28 flex justify-between items-center">
       <div>
         <p className="text-gray-700 font-medium">Our Features</p>
         <h1 className="text-3xl font-semibold mt-1 mb-6">MCCA REFUND INFORMATION</h1>

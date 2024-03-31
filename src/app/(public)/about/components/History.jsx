@@ -2,7 +2,7 @@ import React from "react";
 
 const History = () => {
   return (
-    <div className="mt-28 flex gap-24">
+    <div className="mt-28 flex gap-24 items-center">
       <div>
         <p className="text-gray-700 font-medium">About us</p>
         <h1 className="text-3xl font-semibold mt-1 mb-6">History</h1>
