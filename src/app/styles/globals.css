@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body {
-        @apply text-base bg-white text-gray-800  font-light leading-normal scroll-smooth;
-    } 
+@layer base {
+  body {
+    @apply text-base bg-white text-gray-800  font-light leading-normal scroll-smooth;
+  }
+
 }
