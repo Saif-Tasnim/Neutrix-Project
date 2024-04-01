@@ -3,7 +3,7 @@ import SingleCard from "./SingleCard";
 
 const FeatureCards = () => {
   return (
-    <div className="grid grid-cols-3 gap-8 mt-10">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10 mx-5 md:mx-0">
       <SingleCard
         heading="Affordable Auto Insurance "
         para="USA Underwriters offers affordable rates on quality coverage."

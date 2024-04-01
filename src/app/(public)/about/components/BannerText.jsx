@@ -18,7 +18,7 @@ const BannerText = () => {
           families and individuals.
         </p>
 
-        <p>
+        <p className="hidden lg:block">
           Insurance has changed a lot in the last century and a half. When
           Southern Michigan Mutual Insurance Company was founded, automobiles
           simply didn’t exist. That all changed — right in the company’s back
@@ -26,7 +26,7 @@ const BannerText = () => {
           rolling off the assembly line.
         </p>
 
-        <p>
+        <p className="hidden lg:block">
           In an instant of history, the car supplanted the horse and buggy as
           American’s primary mode of transportation. The era of the Automobile
           had begun, and the Southern Michigan Mutual Insurance Company was

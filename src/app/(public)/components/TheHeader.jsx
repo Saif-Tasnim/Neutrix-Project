@@ -4,13 +4,14 @@ import React from "react";
 import Link from "next/link";
 import { NAV_DATA } from "../(home)/static/navData";
 import { usePathname } from "next/navigation";
+import { MobileNavBar } from ".";
 
 const TheHeader = () => {
   const pathName = usePathname();
 
   return (
     <div className="flex justify-between border-b border-b-gray-200 py-5 container">
-      <div>
+      <div className="pl-14 lg:pl-0">
         <Link href="/">
           {" "}
           <Image
@@ -23,7 +24,7 @@ const TheHeader = () => {
         </Link>
       </div>
 
-      <div className="flex gap-6">
+      <div className="hidden lg:flex lg:gap-6 ">
         {(NAV_DATA ?? [])?.map((nav) => (
           <Link
             key={nav.id}
@@ -39,6 +40,10 @@ const TheHeader = () => {
         <button className="px-5 py-2 bg-red-600 text-gray-100 rounded-full font-medium">
           Report a Claim
         </button>
+      </div>
+
+      <div className="block lg:hidden">
+        <MobileNavBar />
       </div>
     </div>
   );
