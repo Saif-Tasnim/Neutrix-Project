@@ -19,7 +19,7 @@ const MobileNavBar = () => {
 
       <div className="absolute right-0 w-full py-9 z-[999999]">
         <ul
-          className={`bg-red-700 flex flex-col items-start gap-6 pt-7 pb-14 px-4 ${
+          className={`bg-red-700 flex flex-col items-start gap-6 pt-10 pb-12 px-4 ${
             showMenu
               ? "translate-x-0 duration-700"
               : "-translate-x-[1000px] duration-1000"

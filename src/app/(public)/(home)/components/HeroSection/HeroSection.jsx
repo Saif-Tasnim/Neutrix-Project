@@ -5,9 +5,9 @@ import { Icons } from "@/components/Icons";
 
 const HeroSection = () => {
   return (
-    <div className="w-full bg-red-700 h-full lg:h-screen mt-4 lg:mt-10 rounded-xl flex flex-col lg:flex-row lg:justify-around p-5 lg:p-0">
+    <div className="w-full bg-red-700 h-full lg:h-screen mt-3 lg:mt-10 rounded-xl flex flex-col lg:flex-row lg:justify-around p-5 lg:p-0">
       
-      <div className="p-0 lg:p-20 text-white">
+      <div className="py-8 px-4 lg:p-20 text-white">
         <h1 className="text-3xl lg:text-[48px] uppercase font-bold block lg:flex lg:flex-col lg:gap-6">
           Get affordable, <span>same-day coverage</span>{" "}
           <span>in no time </span>{" "}

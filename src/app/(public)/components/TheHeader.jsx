@@ -11,7 +11,7 @@ const TheHeader = () => {
 
   return (
     <div className="flex justify-between border-b border-b-gray-200 py-5 container">
-      <div>
+      <div className="pl-14 lg:pl-0">
         <Link href="/">
           {" "}
           <Image
