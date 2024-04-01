@@ -5,10 +5,12 @@ import x from "@/assets/x-mark.png";
 import Image from "next/image";
 import { NAV_DATA } from "../(home)/static/navData";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const MobileNavBar = () => {
   const [showMenu, isShowMenu] = useState(false);
-
+  const pathName = usePathname();
+  
   return (
     <div>
       <Image
@@ -27,13 +29,11 @@ const MobileNavBar = () => {
         >
           {NAV_DATA.map((nav) => (
             <li key={nav.id} className="text-white px-5 py-2.5">
-              {" "}
-              <Link href={nav.href}> {nav.title} </Link>{" "}
+              <Link href={nav.href} className={`${pathName === nav.href ? "underline" : ""}`}> {nav.title} </Link>
             </li>
           ))}
           <li key={12} className="text-white px-5 py-2.5">
-              {" "}
-              <Link href="/"> Report a Claim </Link>{" "}
+              <Link href="/"> Report a Claim </Link>
             </li>
         </ul>
       </div>
