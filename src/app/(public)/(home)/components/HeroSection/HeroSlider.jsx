@@ -11,8 +11,8 @@ const HeroSlider = () => {
       <SwiperSlide>
         <HeroSection />
       </SwiperSlide>
-      <SwiperSlide>
-        <HeroSection />
+      <SwiperSlide className="hidden lg:block">
+        <HeroSection/>
       </SwiperSlide>
     </Swiper>
   );

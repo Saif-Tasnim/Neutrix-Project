@@ -11,7 +11,7 @@ const Accordion = ({ heading, para1, para2, para3 }) => {
       <h3 className="font-semibold py-6 px-3 flex justify-between border-b border-gray-500">
         <span>{heading}</span>
         <span onClick={()=>isOpenAccordion(!openAccordion)}>
-          {openAccordion ? <Icons.ChevronDown /> : <Icons.ChevronUp />}{" "}
+          {openAccordion ? <Icons.ChevronUp /> : <Icons.ChevronDown />}{" "}
         </span>
       </h3>
       
