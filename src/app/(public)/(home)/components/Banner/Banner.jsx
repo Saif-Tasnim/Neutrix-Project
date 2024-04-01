@@ -29,7 +29,7 @@ const Banner = () => {
           </span>
         </p>
        
-          <button className="whitespace-nowrap px-12 py-4 lg:px-9 lg:py-4 bg-gray-900 rounded-full font-medium text-base hover:bg-gray-950">
+          <button className="whitespace-nowrap px-20 py-4 lg:px-9 lg:py-4 bg-gray-900 rounded-full font-medium text-base hover:bg-gray-950">
             Report a Claim
           </button>
       </div>
